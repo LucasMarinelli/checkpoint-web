@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header {
+    display: flex;
+    background-size: cover;
+    background-image: url(backsep.webp);
+     height: 300px;
+}
+
+.header .header-container {
+    color: white;
+    margin: 30px 170px;
+    padding: 30px;
+    text-align: center;
+    border: 3px double white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: auto;
+}
+
+.section1 > div:first-child {
+    color: white;
+    background: green;
+}
+     
+ 
+
+.section1 > div:last-child {
+    color: white;
+    background: red;
+}
+
+
+
+.section1 {
+    display: flex;
+}
+
+.section1 > div {
+    flex: 1;
+}
